@@ -21,7 +21,8 @@ import AdminProtectedLayout from "./layouts/admin-protected-layout";
 import PaymentPage from "./pages/payment.page";
 import CompletePage from "./pages/complete.page";
 
-const PUBLISHABLE_KEY = "pk_test_dXAtcmF5LTgxLmNsZXJrLmFjY291bnRzLmRldiQ";
+const PUBLISHABLE_KEY = import.meta.env.VITE_PUBLISHABLE_KEY;
+console.log("Clerk Key PASSED:", PUBLISHABLE_KEY);
 
 if (!PUBLISHABLE_KEY) {
   throw new Error("Add your Clerk Publishable Key to the .env.local file");

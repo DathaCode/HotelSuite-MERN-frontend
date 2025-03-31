@@ -9,17 +9,17 @@ HotelSuite is a full-stack web application designed to simplify hotel reservatio
 HotelSuite provides an intuitive interface for users to explore hotel listings, view detailed hotel information, and make secure bookings.  
 The application incorporates robust back-end services for handling hotel data, user management, and payment processing, along with a modern and responsive React front end.
 
-### BACKEND REPO
-The HotelSuite backend is built on Node.js and Express, with MongoDB serving as the primary data store for hotels and bookings. It provides RESTful API endpoints for hotel listings, hotel details, and booking management. Authentication is seamlessly integrated using Clerk, ensuring secure access to booking operations. All filtering and sorting logic for hotels, such as price range filtering, is processed on the server side for optimal performance.
-
-https://github.com/DathaCode/HotelSuite-MERN-backend
-
 Key Features:
 - **Hotel Listings:** View and filter hotels by price range, location, and other amenities.
 - **Hotel Details:** Detailed pages for each hotel with images, descriptions, ratings, and user reviews.
 - **Integrated Booking:** Make reservations with a smooth booking process.
 - **User Authentication:** Secure user sign-in and registration using Clerk.
 - **Responsive Design:** Optimized for both desktop and mobile browsing.
+
+### BACKEND REPO
+The HotelSuite backend is built on Node.js and Express, with MongoDB serving as the primary data store for hotels and bookings. It provides RESTful API endpoints for hotel listings, hotel details, and booking management. Authentication is seamlessly integrated using Clerk, ensuring secure access to booking operations. All filtering and sorting logic for hotels, such as price range filtering, is processed on the server side for optimal performance.
+
+https://github.com/DathaCode/HotelSuite-MERN-backend
 
 ---
 

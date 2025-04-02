@@ -9,7 +9,7 @@ const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 export const api = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://aidf-horizone-backend-vidath.onrender.com/api/",
+    baseUrl: "https://hotelsuite-mern-backend.onrender.com/",
     prepareHeaders: async (headers, { getState }) => {
       const token = await window.Clerk?.session?.getToken();
       if (token) {

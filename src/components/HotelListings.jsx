@@ -9,7 +9,7 @@ export default function HotelListings() {
   const searchValue = useSelector((state) => state.search.value);
 
   // State for country filter
-  const locations = ["ALL", "France", "Italy", "Australia", "Japan"];
+  const locations = ["ALL", "France", "Italy", "Australia", "Japan","UAE"];
   const [selectedLocation, setSelectedLocation] = useState("ALL");
 
   // State for price filtering
